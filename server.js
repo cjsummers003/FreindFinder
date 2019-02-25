@@ -9,7 +9,7 @@ var htmlRoutes = require('./app/routing/html-routes.js');
 
 // Set up Express App
 var app = express();
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
@@ -23,5 +23,5 @@ htmlRoutes(app); // HTML route
 
 // Listener - Start the server
 app.listen(PORT, function() {
-  console.log("App listening on PORT: " + PORT);
+  console.log("App listening on http://localhost:" + PORT);
 });
