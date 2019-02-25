@@ -8,7 +8,7 @@ This app will connect you with a friend that is compatible with you, based on yo
  * When the page first loads it will diplay the title screen that asks the user if they would like to take a survery.
  <br>
  * Users can also view the github repo to view the opsen source code as well as the JSON API file.
- <br>
+ <br><br>
  <img src="images/survey.PNG">
  <br>
  * If the user choses to take the survey they will be directed to answer 10 questions.  
